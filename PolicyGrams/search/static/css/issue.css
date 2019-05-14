@@ -1,0 +1,138 @@
+#container {
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.sidebar{
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-right: 3%;
+    background-image: url('/static/images/SVG/PolicyGrams_side header.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contentcontainer{
+    width: 80%;
+    height: 100%;
+    float: left;
+
+}
+
+.sharecol{
+    float: left;
+    width: 50%;
+}
+
+.sharing{
+    height: 5%;
+    width: 5%;
+}
+
+.searchrow{
+    padding-top: 40px;
+    height: 10%
+    margin-bottom: 50px;
+}
+
+.searchtopleft{
+    float: left;
+    width: 60%;
+
+}
+
+.searchtopright{
+    float: right;
+    width: 40%;
+
+}
+
+.contentrow{
+    float: left;
+    width: 100%;
+    height: 90%;
+}
+
+.textdisplay{
+    float: left;
+    width: 50%;
+    height: 90%;
+}
+
+.policygram{
+    float: left;
+    width: 50%;
+    height: 90%;
+
+}
+
+.policygram .base{
+    z-index: 0;
+    position: relative;
+    top: 150px;
+    left: 80px;
+    height: 80%;
+    width: 80%;
+}
+
+.icon1{
+    z-index: 1;
+    position: relative;
+    right: 350px;
+    bottom: 70px;
+    height: 15%;
+    width: auto;
+}
+
+.icon2{
+    z-index: 2;
+    position: relative;
+    left: 260px;
+    bottom: 30px;
+    height: 15%;
+    width: auto;
+}
+
+.icon3{
+    z-index: 3;
+    position: relative;
+    left: 330px;
+    bottom: 425px;
+    height: 15%;
+    width: auto;
+}
+
+.icon4{
+    z-index: 4;
+    position: relative;
+    left: 200px;
+    bottom: 120px;
+    height: 15%;
+    width: auto;
+}
+
+.icon5{
+    z-index: 5;
+    position: relative;
+    left: -300px;
+    bottom: 280px;
+    height: 15%;
+    width: auto;
+}
+
+#ytvideo{
+    display: none;
+
+}
+
+#tweet{
+    display: none;
+
+}
+
+#tweet2{
+    display: none;
+
+}
